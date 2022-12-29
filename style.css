@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #060096;
+}
+
+.box {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+} 
+.boox {
+    position: relative;
+    background-color: #db7009;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; 
+	text-transform:justify;
+}
+
+h2 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -2px;
+}
+.hdgA{
+    background-color:lightBlue ;
+}
+
+.hdgB{
+    background-color: #11618f;
+}
+
+.hdgC{
+    background-color: #278d46;
+}
+
+.contenu {
+    clear: both;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    margin: 3px;
+    min-height: 120px;
+}
+
+/*laptop*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
